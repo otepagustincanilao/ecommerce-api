@@ -13,7 +13,7 @@ defmodule Ecommerce.Schemas.OrderItem do
 		field :discount, :decimal
 		field :discount_type, :string
 		field :discount_remarks, :string
-		field :variant, :jsonb
+		field :variant, {:array, :map}
 		field :remarks, :string
 
 		belongs_to(:order, Ecommerce.Schemas.Order)

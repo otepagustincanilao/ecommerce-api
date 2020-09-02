@@ -10,7 +10,7 @@ defmodule Ecommerce.Schemas.ShipperAddress do
     field :type, :string
     field :address_line1, :string
     field :address_line2, :string
-    field :city, :string, :string
+    field :city, :string
     field :province, :string
     field :region, :string
     field :postal_code, :string

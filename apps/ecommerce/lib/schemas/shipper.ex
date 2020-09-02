@@ -8,7 +8,7 @@ defmodule Ecommerce.Schemas.Shipper do
   schema "shippers" do
 		field :name, :string
 		field :description, :string
-    field :remarks, :text
+    field :remarks, :string
 
     timestamps()
   end

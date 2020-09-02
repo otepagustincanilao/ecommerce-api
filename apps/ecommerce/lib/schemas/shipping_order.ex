@@ -9,7 +9,7 @@ defmodule Ecommerce.Schemas.ShippingOrder do
   schema "shipping_orders" do
     field :shipping_amount, :decimal
     field :shipping_tax_price, :decimal
-    field :remarks, :text
+    field :remarks, :string
 
     belongs_to(:shipper, Ecommerce.Schemas.Shipper)
     belongs_to(:order, Ecommerce.Schemas.Order)
