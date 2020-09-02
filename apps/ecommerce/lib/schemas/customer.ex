@@ -12,8 +12,7 @@ defmodule Ecommerce.Schemas.Customer do
 		field :last_name, :string
     field :suffix, :string
     field :birthdate, :date
-    field :gender, :date
-    field :civil_status, :string
+    field :gender, :string
 
     timestamps()
   end
@@ -26,8 +25,7 @@ defmodule Ecommerce.Schemas.Customer do
       :last_name,
       :suffix,
       :birthdate,
-      :gender,
-      :civil_status
+      :gender
     ])
   end
 end

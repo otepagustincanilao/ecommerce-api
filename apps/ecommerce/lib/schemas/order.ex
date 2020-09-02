@@ -7,12 +7,16 @@ defmodule Ecommerce.Schemas.Order do
 
   @primary_key {:id, :binary_id, autogenerate: true}
   schema "orders" do
+  	field :order_no, :string
 		field :total_price, :decimal
-		field :total_discounted_amount, :decimal
 		field :total_tax_price, :decimal
-		field :total_shipping_price, :decimal
-		field :total_shipping_tax_price, :decimal
+		field :total_discounted_amount, :decimal
+		field :shipping_price, :decimal
+		field :shipping_tax_price, :decimal
 		field :remarks, :string
+		field :status, :string
+
+		belongs_to(:customer, Ecommerce.Schemas.Customer)
 
     timestamps()
   end
@@ -20,12 +24,14 @@ defmodule Ecommerce.Schemas.Order do
   def changeset(struct, params \\ %{}) do
     struct
     |> cast(params, [
-			:total_price,
-			:total_discounted_amount,
-			:total_tax_price,
-			:total_shipping_price,
-			:total_shipping_tax_price,
-			:remarks
+			:order_no,
+			:total_price, 
+			:total_tax_price, 
+			:total_discounted_amount, 
+			:shipping_price, 
+			:shipping_tax_price, 
+			:remarks,
+			:status
     ])
   end
 end
