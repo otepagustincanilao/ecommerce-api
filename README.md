@@ -1,3 +1,1 @@
-# Ecommerce.Umbrella
-# ecommerce-api
-Elixir api
+# Ecommerce-API using Elixir Language
