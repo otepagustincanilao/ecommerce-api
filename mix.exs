@@ -10,7 +10,7 @@ defmodule Ecommerce.Umbrella.MixProject do
       aliases: aliases()
     ]
   end
-
+  #
   # Dependencies can be Hex packages:
   #
   #   {:mydep, "~> 0.3.0"}
