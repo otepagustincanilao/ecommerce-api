@@ -39,7 +39,8 @@ defmodule Ecommerce.Umbrella.MixProject do
   defp aliases do
     [
       # run `mix setup` in all child apps
-      setup: ["cmd mix setup"]
+      "ecto.reset": ["ecto.drop", "ecto.create", "ecto.migrate"],
+      "ecto.seed": ["run apps/ecommerce/priv/repo/seeds.exs"]
     ]
   end
 end
