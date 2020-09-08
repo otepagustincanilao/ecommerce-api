@@ -3,7 +3,7 @@ defmodule Ecommerce.Repo.Migrations.CreateBrandsTbl do
 
 	def up do
 		create table(:brands, primary_key: false) do
-			add :id, :binary_id, primary_key: true
+			add :code, :string, size: 20, primary_key: true
 			add :name, :string, size: 60
 			add :description, :text
 

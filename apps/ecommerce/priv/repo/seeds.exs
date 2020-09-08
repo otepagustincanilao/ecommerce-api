@@ -974,3 +974,180 @@ tertiary_category_data = [
 
 TertiaryCategory.seed(tertiary_category_data)
 
+brand_data = [
+  ## shoe brands
+  %{
+    code: "Nike",
+    name: "Nike",
+    description: "Nike, Inc. American company"
+  },
+  %{
+    code: "ADIDAS",
+    name: "Adidas",
+    description: "Adidas, German company"
+  },
+  %{
+    code: "AND1",
+    name: "AND1",
+    description: "AND1 is an American footwear and clothing company specializing in basketball shoes"
+  },
+  %{
+    code: "SKS",
+    name: "Sketchers",
+    description: "Skechers USA, Inc. is a North American lifestyle and performance footwear company."
+  },
+  %{
+    code: "RBK",
+    name: "Reebok",
+    description: "Reebok International Limited is a British-American footwear and apparel company founded in Bolton"
+  },
+  %{
+    code: "wB",
+    name: "World Balance",
+    description: "World Balance is a filipino local brand."
+  },
+  %{
+    code: "GIBI",
+    name: "GIBI",
+    description: "GIBI is a filipino local brand."
+  },
+  %{
+    code: "FILA",
+    name: "FILA",
+    description: "is a sportswear manufacturer that designs shoes and apparel founded by Ettore and Giansevero Fila in 1911 in Biella."
+  },
+  %{
+    code: "PUMA",
+    name: "PUMA",
+    description: "Puma SE, branded as Puma, is a German multinational corporation that designs and manufactures athletic and casual footwear, apparel and accessories, which is headquartered in Herzogenaurach, Bavaria, Germany."
+  },
+  %{
+    code: "CNV",
+    name: "Converse",
+    description: "Converse is an American shoe company that designs, distributes, and licenses sneakers, skating shoes, lifestyle brand footwear, apparel, and accessories."
+  },
+
+  ## computer hardware and electronics company
+  %{
+    code: "MSI",
+    name: "Micro-Star International",
+    description: "Micro-Star International is a Taiwanese multinational information technology corporation headquartered in New Taipei City, Taiwan."
+  },
+  %{
+    code: "ASUS",
+    name: "AsusTek Computer Inc",
+    description: "is a is a Taiwanese multinational computer and phone hardware and electronics company headquartered in Beitou District, Taipei, Taiwan."
+  },
+  %{
+    code: "GIGABYTE",
+    name: "Gigabyte Technology",
+    description: "Gigabyte is a Taiwanese manufacturer and distributor of computer hardware."
+  },
+  %{
+    code: "Intel",
+    name: "Intel",
+    description: "Intel Corporation is an American multinational corporation and technology company headquartered in Santa Clara, California, in Silicon Valley."
+  },
+  %{
+    code: "NVIDIA",
+    name: "Nvidia",
+    description: "Nvidia Corporation is an American multinational technology company incorporated in Delaware and based in Santa Clara, California."
+  },
+  %{
+    code: "EVGA",
+    name: "EVGA Corporation",
+    description: "EVGA Corporation is an American computer hardware company that produces Nvidia-GPU-based video cards as well as Intel-chipset-based motherboards."
+  },
+  %{
+    code: "DELL",
+    name: "DELL",
+    description: "Dell is an American multinational computer technology company that develops, sells, repairs, and supports computers and related products and services."
+  },
+  %{
+    code: "CORSAIR",
+    name: "Corsair",
+    description: "Corsair Gaming, Inc. (stylized as CORSAIR and commonly referred to as Corsair), formerly Corsair Components, Inc., is an American computer peripherals and hardware company headquartered in Fremont, California."
+  },
+  %{
+    code: "NZXT",
+    name: "NZXT",
+    description: "NZXT is an American computer hardware manufacturer based in Los Angeles, California. The company is best known for being a major manufacturer of computer cases, components, and accessories for the PC gaming market."
+  },
+  %{
+    code: "SEAGATE",
+    name: "Seagate Technology",
+    description: "Seagate Technology PLC (commonly referred to as Seagate) is an American data storage company."
+  },
+  %{
+    code: "WD",
+    name: "Western Digital",
+    description: "Western Digital Corporation (abbreviated WDC, commonly known as simply Western Digital and WD) is an American computer hard disk drive manufacturer and data storage company."
+  },
+  %{
+    code: "TOSHIBA",
+    name: "Toshiba",
+    description: "Toshiba Corporation is a Japanese multinational conglomerate headquartered in Minato, Tokyo."
+  },
+  %{
+    code: "ACER",
+    name: "Acer Inc.",
+    description: "Acer Inc. is a Taiwanese multinational hardware and electronics corporation specializing in advanced electronics technology, headquartered in Xizhi, New Taipei City. Its products include desktop PCs, laptop PCs (clamshells, 2-in-1s, convertibles and Chromebooks), tablets, servers, storage devices, virtual reality devices, displays, smartphones and peripherals, as well as gaming PCs and accessories under its Predator brand."
+  },
+  %{
+    code: "RAZER",
+    name: "RAZER Inc.",
+    description: "Razer Inc. is a global gaming hardware manufacturing company, esports and financial services provider established by Min-Liang Tan and Robert Krakoff. The company is currently headquartered in Irvine, California and Singapore."
+  },
+  %{
+    code: "CM",
+    name: "Cooler Master",
+    description: "Cooler Master Co., Ltd. is a computer hardware manufacturer based in Taiwan."
+  },
+  %{
+    code: "LOGITECH",
+    name: "Logitech ",
+    description: "Logitech International S.A. (/ˈlɒdʒɪtɛk/ LO-ji-tek; often shortened to Logi) is an American Swiss manufacturer of computer peripherals and software, with headquarters in Lausanne, Switzerland and Newark, California."
+  },
+  %{
+    code: "STEELSERIES",
+    name: "SteelSeries",
+    description: "SteelSeries is a Danish manufacturer of gaming peripherals and accessories, including headsets, keyboards, mice, and gaming surfaces."
+  },
+  %{
+    code: "SONY",
+    name: "Sony",
+    description: "Sony Corporation is a Japanese multinational conglomerate corporation headquartered in Kōnan, Minato, Tokyo."
+  },
+  %{
+    code: "APPLE",
+    name: "Apple Inc.",
+    description: "Apple Inc. is an American multinational technology company headquartered in Cupertino, California, that designs, develops, and sells consumer electronics, computer software, and online services."
+  },
+  %{
+    code: "LG",
+    name: "LG Electronics",
+    description: "LG Electronics Inc. is a South Korean multinational electronics company headquartered in Yeouido-dong, Seoul, South Korea."
+  },
+  %{
+    code: "LENOVO",
+    name: "Lenovo",
+    description: "Lenovo is an American-Chinese multinational technology company."
+  },
+  %{
+    code: "SAMSUNG",
+    name: "Samsung Electronics",
+    description: "Samsung Electronics Co., Ltd. is a South Korean multinational electronics company headquartered in the Yeongtong District of Suwon."
+  },
+  %{
+    code: "HUAWEI",
+    name: "Huawei",
+    description: "Huawei is a Chinese multinational technology company headquartered in Shenzhen, Guangdong. It designs, develops, and sells telecommunications equipment and consumer electronics (mainly smartphones)."
+  },
+  %{
+    code: "XIAOMI",
+    name: "Xiaomi",
+    description: "Xiaomi is a Chinese electronics company founded in April 2010 and headquartered in Beijing. Xiaomi makes and invests in smartphones, mobile apps, laptops, bags, earphones, shoes, fitness bands, and many other products."
+  },
+]
+
+Brand.seed(brand_data)
