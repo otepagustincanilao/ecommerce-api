@@ -977,14 +977,14 @@ TertiaryCategory.seed(tertiary_category_data)
 brand_data = [
   ## shoe brands
   %{
-    code: "Nike",
+    code: "NIKE",
     name: "Nike",
-    description: "Nike, Inc. American company"
+    description: "Nike, Inc. is an American multinational corporation that is engaged in the design, development, manufacturing, and worldwide marketing and sales of footwear, apparel, equipment, accessories, and services."
   },
   %{
     code: "ADIDAS",
     name: "Adidas",
-    description: "Adidas, German company"
+    description: "Adidas AG is a German multinational corporation, founded and headquartered in Herzogenaurach, Germany, that designs and manufactures shoes, clothing and accessories."
   },
   %{
     code: "AND1",
@@ -1002,7 +1002,7 @@ brand_data = [
     description: "Reebok International Limited is a British-American footwear and apparel company founded in Bolton"
   },
   %{
-    code: "wB",
+    code: "WB",
     name: "World Balance",
     description: "World Balance is a filipino local brand."
   },
@@ -1147,6 +1147,151 @@ brand_data = [
     code: "XIAOMI",
     name: "Xiaomi",
     description: "Xiaomi is a Chinese electronics company founded in April 2010 and headquartered in Beijing. Xiaomi makes and invests in smartphones, mobile apps, laptops, bags, earphones, shoes, fitness bands, and many other products."
+  },
+  %{
+    code: "XIAOMI",
+    name: "Xiaomi",
+    description: "Xiaomi is a Chinese electronics company founded in April 2010 and headquartered in Beijing. Xiaomi makes and invests in smartphones, mobile apps, laptops, bags, earphones, shoes, fitness bands, and many other products."
+  },
+  %{
+    code: "ADATA",
+    name: "ADATA Technology Co., Ltd.",
+    description: "ADATA Technology Co., Ltd. is a Taiwanese memory and storage manufacturer"
+  },
+  %{
+    code: "SEASONIC",
+    name: "Sea Sonic Electronics Co., Ltd.",
+    description: "Seasonic is a Taiwanese power supply and computer PSU manufacturer and retailer, formerly limited to trading hardware OEM for other companies."
+  },
+  %{
+    code: "TT",
+    name: "Thermaltake",
+    description: "Thermaltake Technology Co., Ltd. is a Taiwanese manufacturer of PC case designs, power supplies, cooling devices and peripherals. Its main headquarters are located in Taipei, Taiwan."
+  },
+  ## Clothing brand
+  %{
+    code: "BENCH",
+    name: "Bench",
+    description: "Bench is a Philippine retail brand of clothing, bags, accessories, footwear and fragrances owned by Suyen Corporation."
+  },
+  %{
+    code: "PENSHOPPE",
+    name: "Penshoppe",
+    description: "Penshoppe is a clothing brand based in the Philippines, established in 1986. Penshoppe is the flagship brand of Golden ABC, Inc., a fashion house based in the Philippines."
+  },
+  %{
+    code: "F&H",
+    name: "Folded & Hung",
+    description: "Folded & Hung is a Philippine brand of clothing."
+  },
+  %{
+    code: "UNIQLO",
+    name: "Uniqlo Co., Ltd.",
+    description: "Uniqlo is a Japanese casual wear designer, manufacturer and retailer."
+  },
+  %{
+    code: "H&M",
+    name: "Hennes & Mauritz AB",
+    description: "H&M is a Swedish multinational clothing-retail company known for its fast-fashion clothing for men, women, teenagers and children."
+  },
+  %{
+    code: "RALPH LAUREN",
+    name: "Ralph Lauren Corporation",
+    description: "Ralph Lauren Corporation is an American fashion company producing products ranging from the mid-range to the luxury segments."
+  },
+  %{
+    code: "LEVI'S",
+    name: "Levi Strauss & Co.",
+    description: "Levi Strauss & Co. is an American clothing company known worldwide for its Levi's brand of denim jeans. It was founded in May 1853"
+  },
+  %{
+    code: "BB",
+    name: "Billabong",
+    description: "Billabong International Limited is an Australian surf company, primarily a clothing retailer that also produces accessories, like watches and backpacks, and skateboard and snowboard products under other brand-names."
+  },
+  %{
+    code: "TH",
+    name: "Tommy Hilfiger",
+    description: "Tommy Hilfiger, formerly known as Tommy Hilfiger Corporation and Tommy Hilfiger Inc., is an American premium clothing brand, manufacturing apparel, footwear, accessories, fragrances and home furnishings."
+  },
+  %{
+    code: "LV",
+    name: "Louis Vuitton",
+    description: "Louis Vuitton Malletier, commonly referred to as Louis Vuitton or shortened to LV, is a French fashion house and luxury retail company founded in 1854 by Louis Vuitton."
+  },
+  %{
+    code: "GUCCI",
+    name: "Gucci",
+    description: "Gucci is an luxury brand of fashion house based in Florence, Italy."
+  },
+  %{
+    code: "CK",
+    name: "Calvin Klein",
+    description: "Calvin Klein Inc. is an American fashion house established in 1968. It specializes in leather, lifestyle accessories, home furnishings, perfumery, jewellery, watches and ready-to-wear."
+  },
+  %{
+    code: "LACOSTE",
+    name: "Lacoste",
+    description: "Lacoste is a French company, founded in 1933 by tennis player René Lacoste and André Gillier. It sells clothing, footwear, sportswear, eyewear, leather goods, perfume, towels and watches."
+  },
+
+  ## health and beauty
+  %{
+    code: "OLAY",
+    name: "Olay",
+    description: "Olay, previously Oil of Olay or Oil of Ulay, is an American skin care brand owned by Procter & Gamble."
+  },
+
+  %{
+    code: "DOVE",
+    name: "Dove",
+    description: "Dove is an American personal care brand owned by Unilever originating in the United States."
+  },
+
+  %{
+    code: "PANTENE",
+    name: "Pantene",
+    description: "Pantene is a brand of hair care products owned by Procter & Gamble. "
+  },
+  %{
+    code: "GARNIER",
+    name: "Garnier",
+    description: "Garnier is a mass market cosmetics brand of French cosmetics company L'Oréal. It produces hair care and skin care products."
+  },
+  %{
+    code: "REVLON",
+    name: "Revlon, Inc.",
+    description: "Revlon Inc. is an American-based multinational cosmetics, skin care, fragrance, and personal care company headquartered in New York City, Revlon was established in New York City"
+  },
+  %{
+    code: "LUX",
+    name: "Lux(soap)",
+    description: "LUX is a global brand developed by Unilever."
+  },
+  %{
+    code: "NIVEA",
+    name: "Nivea",
+    description: "NIVEA is a German personal care brand that specializes in body-care. It is owned by the Hamburg-based company Beiersdorf Global AG."
+  },
+  %{
+    code: "L'OREAL",
+    name: "L'Oreal",
+    description: "L'Oréal S.A. is a French personal care company headquartered in Clichy, Hauts-de-Seine with a registered office in Paris."
+  },
+  %{
+    code: "VASELINE",
+    name: "Vaseline",
+    description: "Vaseline is an American brand of petroleum jelly-based products owned by British-Dutch company Unilever."
+  },
+  %{
+    code: "LISTERINE",
+    name: "Listerine",
+    description: "Listerine is an American brand of antiseptic mouthwash product. It is promoted with the slogan 'Kills germs that cause bad breath'."
+  },
+  %{
+    code: "LACTACYD",
+    name: "Lactacyd",
+    description: "Lactacyd was founded in France in 1950 by scientists who wanted to create an effective product to prevent irritation."
   },
 ]
 

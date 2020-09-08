@@ -11,7 +11,7 @@ defmodule Ecommerce.Schemas.Product do
 		field :description, :string
 
 		belongs_to(:category, Ecommerce.Schemas.Category, [foreign_key: :category_code, references: :code, type: :string])
-		belongs_to(:brand, Ecommerce.Schemas.Brand)
+		belongs_to(:brand, Ecommerce.Schemas.Brand, [foreign_key: :brand_code, references: :code, type: :string])
 
     timestamps()
   end

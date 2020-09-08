@@ -14,7 +14,7 @@ defmodule Ecommerce.Seeders.Brand do
 
   defp insert_or_update(data) do
     Brand
-    |> where([c], c.code == ^data.code)
+    |> where([b], b.code == ^data.code)
     |> Repo.one()
     |> is_existing?(data)
   end
